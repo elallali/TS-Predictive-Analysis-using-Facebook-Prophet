@@ -35,11 +35,11 @@ The major dependency that Prophet has is pystan. PyStan has its own [installatio
 
 After installation, you can [get started](https://facebook.github.io/prophet/docs/quick_start.html#python-api)!
 
-Windows
+## Windows
 On Windows, PyStan requires a compiler so you’ll need to [follow the instructions](http://pystan.readthedocs.io/en/latest/windows.html). The easiest way to install Prophet in Windows is in Anaconda.
 
-Linux
+## Linux
 Make sure compilers (gcc, g++, build-essential) and Python development tools (python-dev, python3-dev) are installed. In Red Hat systems, install the packages gcc64 and gcc64-c++. If you are using a VM, be aware that you will need at least 4GB of memory to install fbprophet, and at least 2GB of memory to use fbprophet.
 
-Anaconda
+## Anaconda
 Use __conda install gcc__ to set up gcc. The easiest way to install Prophet is through conda-forge: __conda install -c conda-forge fbprophet__.
